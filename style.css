@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.shape {
+    width: 100px; /* 도형 너비 */
+    height: 100px; /* 도형 높이 */
+    background-color: #3498db; /* 도형 색상 */
+    border-radius: 10px; /* 도형 모서리 둥글게 */
+    position: absolute; /* 위치를 절대값으로 설정 */
+    cursor: grab; /* 마우스 커서 스타일 */
+    transition: transform 0.1s; /* 애니메이션 효과 */
+}
